@@ -1,0 +1,254 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminms.master.cs" Inherits="citygas.adminms" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | Corlate</title>
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body class="homepage">
+
+    <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-4">
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i>   022-28685398</p></div>
+                    </div>
+                   <div class="col-sm-6 col-xs-8">
+                       <div class="social">
+                           
+                           <asp:Label ID="lbl1" runat="server" Text=""  ForeColor="White" Font-Bold="True"  Font-Size="20px" Font-Names="Perpetua Titling MT"></asp:Label>&nbsp&nbsp
+                           <asp:Label ID="lbl2" runat="server" Text=""  ForeColor="White" Font-Bold="True"  Font-Size="20px" Font-Names="Perpetua Titling MT" ></asp:Label>&nbsp&nbsp
+                       </div>
+                    </div>
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   
+                
+                    <a class="navbar-brand" href="adminhome.aspx">
+                       <img src="images/rr.jpg" height="100" width="200" > </a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li ><a href="adminhome.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px;">HOME</a></li>
+                           <li> <a href="adaboutus.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">ABOUT US</a></li>
+
+                        <li ><a href="faq.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px;">FAQ</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px;">DETAILS <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li ><a href="adgasbooking.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif;; font-size: 15px;">GAS BOOKING</a></li>
+                                  <li ><a href="adnewconnection.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px;">NEW CONNECTION</a></li>
+                                  <li ><a href="adcancelbooking.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px;">CANCEL BOOKING</a></li>
+                                  <li ><a href="saftyadd.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px;">SAFTY TIPS</a></li>
+                                  <li ><a href="adsubsidy.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px;">SUBSIDY</a></li>
+                                  <li ><a href="adcustomerdetails.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px;">CUSTOMER</a></li>
+                                  
+                            </ul>
+                        </li>
+                       <li class="dropdown" >
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px;">FEEDBACK <i class="fa fa-angle-down"></i></a>
+                         <ul class="dropdown-menu">
+                             <li><a href="adfeedback.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px;">FEEDBACK DETAILS</a></li>
+ 
+                            </ul>
+                        <li><a href="adcontactus.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px;">CONTACT US</a></li>   
+                           <li><a href="adlogout.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px;">LOGOUT</a></li> 
+                            
+                                      
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+		
+    </header><!--/header-->
+
+    <section id="main-slider" class="no-margin" data-interval="6000" data-pause="false" data-ride="carousel">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image:url('/images/slider/001.jpg'); ">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1" style="font-family: 'Perpetua Titling MT'">CITY GAS AGENCY</h1>
+                                    <h2 class="animation animated-item-2" style="font-family: 'Perpetua Titling MT'">COOK FOOD. SERVE LOVE.......</h2>
+                                     <a class="btn-slide animation animated-item-3" href="#" style="font-family: 'Perpetua Titling MT'">Read More</a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/03.jpg" height="290" width="660">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-position: center center; background-image: url(images/slider/003.jpg)"  >
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content"> 
+                                    <h1 class="animation animated-item-1" style="font-family: 'Perpetua Titling MT'">CITY GAS AGENCY</h1>
+                                    <h2 class="animation animated-item-2" style="font-family: 'Perpetua Titling MT'">REGISTER NEW CONNECTION ONLINE...
+                                        24x7
+                                    </h2>
+                                    <a class="btn-slide animation animated-item-3" href="#" style="font-family: 'Perpetua Titling MT'">Read More</a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                               <img src="images/slider/01.jpg"   height="220" width="660" >
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(images/slider/002.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1" style="font-family: 'Perpetua Titling MT'">CITY GAS AGENCY</h1>
+                                    <h2 class="animation animated-item-2" style="font-family: 'Perpetua Titling MT'">GET SUBSIDY DETAILS ONLINE.....</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#" style="font-family: 'Perpetua Titling MT'">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                               <img src="images/slider/00.jpg"  height="290" width="660" >                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+       <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+         </section>
+
+          <div class="container">
+           <div class="center wow fadeInDown">
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+               </div>
+              </div>
+
+
+    <section id="bottom">
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row" style="font-family: 'Plantagenet Cherokee'; font-size: 17px; color: #666666">
+                 <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <ul>
+                            <li><a href="adminhome.aspx">HOME</a></li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <ul>
+                            <li><a href="adaboutus.aspx">ABOUT US</a></li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <ul>
+                            <li><a href="adcontactus.aspx">CONTACT US</a></li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+               
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <ul>
+                            <li><a href="faq.aspx">FAQ</a></li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+            </div>
+        </div>
+    </section><!--/#bottom-->
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row" style="font-family: 'Plantagenet Cherokee'; color: #FFFFFF; font-size: 16px;">
+                <div class="col-sm-6">
+                    © CITY GAS AGENCY</div>
+                <div class="col-sm-6">
+                    <ul class="pull-right" style="font-family: 'Plantagenet Cherokee'; color: #FFFFFF; font-size: 16px;">
+                      <li><a href="adminhome.aspx">Home</a></li>
+                        <li><a href="adaboutus.aspx">About Us</a></li>
+                        <li><a href="faq.aspx">Faq</a></li>
+                        <li><a href="adcontactus.aspx">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </footer><!--/#footer-->
+   
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,400 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="withoutlg.master.cs" Inherits="citygas.withoutlg" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | Corlate</title>
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body class="homepage">
+
+    <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-4">
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i>   022-28685398</p></div>
+
+                    </div>
+                   
+                   
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   
+                
+                    <a class="navbar-brand" href="Home.aspx">
+                       <img src="images/rr.jpg" height="100" width="200" > </a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li ><a href="Home.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">HOME</a></li>
+                         
+                           <li> <a href="aboutus.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">ABOUT US</a></li>
+                      
+                        <li ><a href="faq.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">FAQ</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">SERVICES <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li ><a href="gasbooking.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">GAS BOOKING</a></li>
+                                  <li ><a href="newconnection.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">NEW CONNECTION</a></li>
+                                  <li ><a href="cancelbooking.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">CANCEL BOOKING</a></li>
+                                  <li ><a href="saftytips.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">SAFTY TIPS</a></li>
+                                  <li ><a href="subsidy.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">SUBSIDY DETAILS</a></li>
+                                  <li ><a href="update.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">PERSONAL INFO</a></li>
+                                  
+                            </ul>
+                        </li>
+                       <li class="dropdown" >
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">FEEDBACK <i class="fa fa-angle-down"></i></a>
+                         <ul class="dropdown-menu">
+                             <li><a href="feedback.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">FEEDBACK</a></li>
+                              
+                            </ul>
+                        <li><a href="contactus.aspx" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;">CONTACT US</a></li>    
+                                      
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+		
+    </header><!--/header-->
+
+    <section id="main-slider" class="no-margin" data-interval="6000" data-pause="false" data-ride="carousel">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image:url('/images/slider/001.jpg'); ">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1" style="font-family: 'Perpetua Titling MT'">CITY GAS AGENCY</h1>
+                                    <h2 class="animation animated-item-2" style="font-family: 'Perpetua Titling MT'">COOK FOOD. SERVE LOVE.......</h2>
+                                     <a class="btn-slide animation animated-item-3" href="home.aspx" style="font-family: 'Perpetua Titling MT'">Read More</a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/03.jpg" height="290" width="660" >
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-position: center center; background-image: url(images/slider/003.jpg)"  >
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content"> 
+                                    <h1 class="animation animated-item-1" style="font-family: 'Perpetua Titling MT'">CITY GAS AGENCY</h1>
+                                    <h2 class="animation animated-item-2" style="font-family: 'Perpetua Titling MT'">REGISTER NEW CONNECTION ONLINE...
+                                        24x7
+                                    </h2>
+                                    <a class="btn-slide animation animated-item-3" href="newconnection.aspx" style="font-family: 'Perpetua Titling MT'">Read More</a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                               <img src="images/slider/01.jpg"  height="220" width="660"  >
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(images/slider/002.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1" style="font-family: 'Perpetua Titling MT'">CITY GAS AGENCY</h1>
+                                    <h2 class="animation animated-item-2" style="font-family: 'Perpetua Titling MT'">GET SUBSIDY DETAILS ONLINE.....</h2>
+                                    <a class="btn-slide animation animated-item-3" href="subsidy.aspx" style="font-family: 'Perpetua Titling MT'">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                               <img src="images/slider/00.jpg" height="290" width="660">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+       <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+         </section>
+
+          <div class="container">
+           <div class="center wow fadeInDown">
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+               </div>
+              </div>
+  
+    <!--/#main-slider-->
+
+    <!--/#feature-->
+    <section id="recent-works" style="background-color: #2C2C2C; color: #FFFFFF;">
+       <div class="container" style="background-color: #2C2C2C; color: #FFFFFF;">
+            <div class="center wow fadeInDown" style="font-family: 'Plantagenet Cherokee'; font-size: 20px">
+                <h2 style="color: #FFFFFF; font-family: 'Perpetua Titling MT';">SAFTY TIPS</h2>
+                <p class="lead"><span style="color: rgb(255, 255, 255); font-family: 'Plantagenet Cherokee'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: background-color: #2C2C2C; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">LPG is a popular and efficient energy source used in homes for cooking. It is imperative that you take good care and use it safely and responsibly. LPG Cylinders are strong and cannot be damaged easily. However leaks can occur from cylinder, valves and pipe connections if it is not kept in good condition or if considerable care is not taken while replacing them.</span></p>
+                <p class="lead" style="font-family: 'Plantagenet Cherokee'; font-size: 30px;">Some Common Safty Tips Are.....</p>
+            </div>
+
+         
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/safty tips/1.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner" style="font-family: 'Plantagenet Cherokee'; font-size: 18px; color: white;">
+                                <h3 Style="font-family: 'Plantagenet Cherokee'; font-size: 25px; color: #FFFFFF">SAFTY TIP </h3>
+                                <p>While Recieving Cylinder</p>
+                                <a class="preview" href="images/safty tips/1.png"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/safty tips/2.png" alt="">
+                        <div class="overlay">
+                           <div class="recent-work-inner" style="font-family: 'Plantagenet Cherokee'; font-size: 18px; color: white;">
+                                <h3 Style="font-family: 'Plantagenet Cherokee'; font-size: 25px; color: #FFFFFF">SAFTY TIP </h3>
+                                <p>Before Use</p>
+                                <a class="preview" href="images/safty tips/2.png"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/safty tips/4.png" alt="">
+                        <div class="overlay">
+                        <div class="recent-work-inner" style="font-family: 'Plantagenet Cherokee'; font-size: 18px; color: white;">
+                                <h3 Style="font-family: 'Plantagenet Cherokee'; font-size: 25px; color: #FFFFFF">SAFTY TIP </h3>
+                                <p>After Use</p>
+                                <a class="preview" href="images/safty tips/4.png"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/safty tips/5.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner" style="font-family: 'Plantagenet Cherokee'; font-size: 18px; color: white;">
+                                <h3 Style="font-family: 'Plantagenet Cherokee'; font-size: 25px; color: #FFFFFF">SAFTY TIP </h3>
+                                <p>Before Use</p>
+                                <a class="preview" href="images/safty tips/5.png"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+                
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/safty tips/6.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner" style="font-family: 'Plantagenet Cherokee'; font-size: 18px; color: white;">
+                                <h3 Style="font-family: 'Plantagenet Cherokee'; font-size: 25px; color: #FFFFFF">SAFTY TIP </h3>
+                                <p>While In Use</p>
+                                <a class="preview" href="images/safty tips/6.png"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/safty tips/7.png" alt="">
+                        <div class="overlay">
+                             <div class="recent-work-inner" style="font-family: 'Plantagenet Cherokee'; font-size: 18px; color: white;">
+                                <h3 Style="font-family: 'Plantagenet Cherokee'; font-size: 25px; color: #FFFFFF">SAFTY TIP </h3>
+                                <p>In Case Of Leak</p>
+                                <a class="preview" href="images/safty tips/7.png"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/safty tips/8.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner" style="font-family: 'Plantagenet Cherokee'; font-size: 18px; color: white;">
+                                <h3 Style="font-family: 'Plantagenet Cherokee'; font-size: 25px; color: #FFFFFF">SAFTY TIP </h3>
+                                <p>In Case Of Leak</p>
+                                <a class="preview" href="images/safty tips/8.png"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/safty tips/9.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner" style="font-family: 'Plantagenet Cherokee'; font-size: 18px; color: white;">
+                                <h3 Style="font-family: 'Plantagenet Cherokee'; font-size: 25px; color: #FFFFFF">SAFTY TIP </h3>
+                                <p>Servicing</p>
+                                <a class="preview" href="images/safty tips/9.png"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+            </div><!--/.row-->
+        </div><!--/.container-->
+  </section><!--/.container-->
+   <!--/#recent-works-->
+    
+  
+
+    <section id="conatcat-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="pull-left">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="media-body">
+                            <h2 style="font-family: 'Perpetua Titling MT'; font-size: 24px; font-weight: bold;">Have a question or need a help?</h2>
+                            <p><span style="color: rgb(68, 68, 68); font-family: 'Plantagenet Cherokee'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">User’s of City Gas Agency can call them in between 8 am to 8 pm everyday. It is a Toll Free Helpline which means there will be no Charge if you make contact to them.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.container-->    
+    </section><!--/#conatcat-info-->
+
+   <section id="bottom">
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row" style="font-family: 'Plantagenet Cherokee'; font-size: 15px; color: #3F3F3F;">
+                 <div class="col-md-3 col-sm-6">
+                   <div class="widget">
+                       <h3 style="color: #000000; font-family: 'Plantagenet Cherokee';">ABOUT US</h3>
+                        <ul>
+                            <li><a href="aboutus.aspx">BRIEF</a></li>
+                            <li><a href="aboutus.aspx">VISION</a></li>
+                            <li><a href="aboutus.aspx"> ACHIEVEMENTS</a></li>
+                            <li><a href="aboutus.aspx">MARKET</a></li>
+                          
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3 style="font-family: 'Plantagenet Cherokee'; color: #000000">SERVICES</h3>
+                        <ul><li><a href="newconnection.aspx">NEW CONNECTION</a></li>
+                            <li><a href="gasbooking.aspx">GAS BOOKING</a></li>
+                            <li><a href="cancelbooking.aspx">CANCEL BOOKING</a></li>
+                            <li><a href="subsidy.aspx">SUBSIDY DETAILS</a></li>
+                            
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3 style="font-family: 'Plantagenet Cherokee'; color: #000000">SUPPORT</h3>
+                        <ul>
+                            <li><a href="faq.aspx">FAQ</a></li>
+                            <li><a href="saftytips.aspx">SAFTY TIPS</a></li>
+                           
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+               
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3 style="font-family: 'Plantagenet Cherokee'; color: #000000">CONNECT WITH US</h3>
+                        <ul>
+                            <li><a href="contactus.aspx">CONTACT US</a></li>
+                            <li><a href="feedback.aspx">FEEDBACK</a></li>
+                          
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+            </div>
+        </div>
+    </section><!--/#bottom-->
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" style="font-family: 'Plantagenet Cherokee'; color: #FFFFFF; font-size: 16px;" >
+                    © CITY GAS AGENCY</div>
+                <div class="col-sm-6">
+                    <ul class="pull-right" style="font-family: 'Plantagenet Cherokee'; color: #FFFFFF; font-size: 16px">
+                        <li><a href="Home.aspx">Home</a></li>
+                        <li><a href="aboutus.aspx">About Us</a></li>
+                        <li><a href="faq.aspx">Faq</a></li>
+                        <li><a href="contactus.aspx">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+</body>
+</html>

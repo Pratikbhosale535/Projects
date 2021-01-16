@@ -1,0 +1,12 @@
+D:\projectfeb6\citygas\citygas\bin\citygas.dll
+D:\projectfeb6\citygas\citygas\bin\citygas.pdb
+D:\projectfeb6\citygas\citygas\obj\Debug\citygas.dll
+D:\projectfeb6\citygas\citygas\obj\Debug\citygas.pdb
+D:\projectfeb6\citygas\citygas\obj\Debug\citygas.csprojResolveAssemblyReference.cache
+D:\a study\TY 6 SEM\Main project\citygas\citygas\bin\citygas.dll
+D:\a study\TY 6 SEM\Main project\citygas\citygas\bin\citygas.pdb
+D:\a study\TY 6 SEM\Main project\citygas\citygas\obj\Debug\citygas.dll
+D:\a study\TY 6 SEM\Main project\citygas\citygas\obj\Debug\citygas.pdb
+D:\a study\TY 6 SEM\Main project\citygas\citygas\bin\citygas.dll.config
+D:\a study\TY 6 SEM\Main project\citygas\citygas\obj\Debug\citygas.csprojAssemblyReference.cache
+D:\a study\TY 6 SEM\Main project\citygas\citygas\obj\Debug\citygas.csproj.CoreCompileInputs.cache
